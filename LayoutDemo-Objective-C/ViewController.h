@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)addAdressBtn:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UITableView *table1;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *tableBackViewHeight;
+
 
 @end
 

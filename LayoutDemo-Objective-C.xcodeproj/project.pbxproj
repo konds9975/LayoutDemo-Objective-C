@@ -15,6 +15,8 @@
 		FFC774C0205AC6AF0004CFA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC774BF205AC6AF0004CFA8 /* main.m */; };
 		FFC774CA205AC6AF0004CFA8 /* LayoutDemo_Objective_CTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC774C9205AC6AF0004CFA8 /* LayoutDemo_Objective_CTests.m */; };
 		FFC774D5205AC6AF0004CFA8 /* LayoutDemo_Objective_CUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC774D4205AC6AF0004CFA8 /* LayoutDemo_Objective_CUITests.m */; };
+		FFC774E4205AC8100004CFA8 /* CellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC774E3205AC8100004CFA8 /* CellTableViewCell.m */; };
+		FFC774E7205ACDDA0004CFA8 /* ModeVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC774E6205ACDDA0004CFA8 /* ModeVCViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		FFC774D0205AC6AF0004CFA8 /* LayoutDemo-Objective-CUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LayoutDemo-Objective-CUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFC774D4205AC6AF0004CFA8 /* LayoutDemo_Objective_CUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LayoutDemo_Objective_CUITests.m; sourceTree = "<group>"; };
 		FFC774D6205AC6AF0004CFA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFC774E2205AC8100004CFA8 /* CellTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellTableViewCell.h; sourceTree = "<group>"; };
+		FFC774E3205AC8100004CFA8 /* CellTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellTableViewCell.m; sourceTree = "<group>"; };
+		FFC774E5205ACDDA0004CFA8 /* ModeVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModeVCViewController.h; sourceTree = "<group>"; };
+		FFC774E6205ACDDA0004CFA8 /* ModeVCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModeVCViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +109,12 @@
 			children = (
 				FFC774B0205AC6AF0004CFA8 /* AppDelegate.h */,
 				FFC774B1205AC6AF0004CFA8 /* AppDelegate.m */,
+				FFC774E5205ACDDA0004CFA8 /* ModeVCViewController.h */,
+				FFC774E6205ACDDA0004CFA8 /* ModeVCViewController.m */,
 				FFC774B3205AC6AF0004CFA8 /* ViewController.h */,
 				FFC774B4205AC6AF0004CFA8 /* ViewController.m */,
+				FFC774E2205AC8100004CFA8 /* CellTableViewCell.h */,
+				FFC774E3205AC8100004CFA8 /* CellTableViewCell.m */,
 				FFC774B6205AC6AF0004CFA8 /* Main.storyboard */,
 				FFC774B9205AC6AF0004CFA8 /* Assets.xcassets */,
 				FFC774BB205AC6AF0004CFA8 /* LaunchScreen.storyboard */,
@@ -266,7 +276,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFC774B5205AC6AF0004CFA8 /* ViewController.m in Sources */,
+				FFC774E4205AC8100004CFA8 /* CellTableViewCell.m in Sources */,
 				FFC774C0205AC6AF0004CFA8 /* main.m in Sources */,
+				FFC774E7205ACDDA0004CFA8 /* ModeVCViewController.m in Sources */,
 				FFC774B2205AC6AF0004CFA8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
